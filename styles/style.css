@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');       
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', sans-serif;
+}
+body{
+    background: #480bab;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 100px;
+    padding-right: 50px;
+    /* line-height: 50px; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+}
+
+.tiny_stick{
+    height: 70px;
+    width: 8px;
+    background: rgb(0, 0, 0);
+    transform: skew(-10deg);
+    display: block ;
+    margin-right: 15px;
+}
+.nav_link{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    margin: 0px;
+    line-height: 100px;
+}
+h2{
+    color: white;
+    margin-left: 30px;
+    line-height:30px;
+    width: 100%;
+    
+}
+.copy{
+    position: fixed;
+    padding-left:40px;
+    bottom: 0;
+    left: 0;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    height: 2000px;
+}
